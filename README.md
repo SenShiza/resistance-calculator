@@ -1,2 +1,5 @@
-# resistance-calculator
-Resistance Calculator iWritten in Java
+# Resistance Calculator
+
+Resistance Calculator Written in Java
+
+WIP
