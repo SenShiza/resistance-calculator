@@ -2,7 +2,7 @@
 
 ## Description
 
-This program will calculate any given resistance in a parallel or series circuit.
+This program will calculate any given resistance in a parallel or series circuit. It uses JOptionPane as GUI.
 
 ## Features
 
