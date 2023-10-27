@@ -3,7 +3,9 @@
  * By @SenShiza
  */
 
-// Importing JOptionPane
+// Importing JOptionPane and Arrays
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import javax.swing.JOptionPane;
 
 public class resistanceCalculator {
