@@ -1,5 +1,14 @@
-# Resistance Calculator
+# Resistance Calculator (Java Edition)
 
-Resistance Calculator Written in Java
+## Description
 
-WIP
+This program will calculate any given resistance in a parallel or series circuit.
+
+## Features
+
+- Calculate Parallel Resistances (**Done**)
+- Calculate Series Resistances (_WIP_)
+
+## Future Plans
+
+I would like for this program to not only calculate resistances but also voltage, current, and power in a circuit.
