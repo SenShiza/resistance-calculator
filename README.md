@@ -6,8 +6,8 @@ This program will calculate any given resistance in a parallel or series circuit
 
 ## Features
 
-- Calculate Parallel Resistances
-- Calculate Series Resistances
+- Calculate Parallel Resistances (in kΩ)
+- Calculate Series Resistances (in kΩ)
 
 ## Future Plans
 
