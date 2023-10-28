@@ -6,8 +6,8 @@ This program will calculate any given resistance in a parallel or series circuit
 
 ## Features
 
-- Calculate Parallel Resistances (**Done**)
-- Calculate Series Resistances (_WIP_)
+- Calculate Parallel Resistances
+- Calculate Series Resistances
 
 ## Future Plans
 
