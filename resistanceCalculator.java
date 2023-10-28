@@ -36,6 +36,7 @@ public class resistanceCalculator {
 
                 retry();
             }
+            
             else {
 
                 parallel();
@@ -72,14 +73,13 @@ public class resistanceCalculator {
     }
 
     public static void parallel() {
-
-        String input;
+        // This method calculates parallel resistances
+        
         int amount = 0;
         float total = 0;
 
         // Asks the user how many resistances wants to calculate in order to create an array of that size
-        input = JOptionPane.showInputDialog("How many resistances would you like to calculate?");
-        amount = Integer.parseInt(input);
+        amount = Integer.parseInt(JOptionPane.showInputDialog("How many resistances would you like to calculate?"));
 
         // Creates an array of a given size from the user
         float[] Resistance = new float[amount];
@@ -117,10 +117,37 @@ public class resistanceCalculator {
     }
 
     public static void series() {
+        // This method calculates series resistances
 
-        // WIP
-        JOptionPane.showMessageDialog(null, "We're sorry. This feature is not currently available.");
+        int amount = 0;
+        float total = 0;
 
+        // Asks the user how many resistances wants to calculate in order to create an array of that size
+        amount = Integer.parseInt(JOptionPane.showInputDialog("How many resistances would you like to calculate?"));
+
+        // Creates an array of a given size from the user
+        float[] Resistance = new float[amount];
+
+        // Adds each resistance value into the Resistance[] array
+        for (int i = 0; i < amount; i++) {
+            
+            int temp = i + 1;
+            Resistance[i] = Float.parseFloat(JOptionPane.showInputDialog("Please enter the value of resistance number " + temp + " (in kΩ)"));
+
+        }
+
+        // Sums all resistances
+        for (int k = 0; k < amount; k++) {
+
+            total = total + Resistance[k];
+
+        }
+
+        // Shows the result in a GUI
+        JOptionPane.showMessageDialog(null, "Your result is: " + total + "kΩ");
+
+        restart();
+        
     }
 
     public static void retry() {
